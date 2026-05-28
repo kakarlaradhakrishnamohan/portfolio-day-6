@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+/* Header */
+header{
+    background:#1d3557;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Flex Navbar */
+nav{
+    display:flex;
+    justify-content:center;
+    background:#457b9d;
+    padding:15px;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    padding:8px 12px;
+}
+
+nav a:hover{
+    background:#1d3557;
+    border-radius:5px;
+}
+
+/* Responsive navbar */
+@media(max-width:600px){
+
+    nav{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    nav a{
+        width:80%;
+        text-align:center;
+        background:#1d3557;
+        border-radius:5px;
+    }
+}
