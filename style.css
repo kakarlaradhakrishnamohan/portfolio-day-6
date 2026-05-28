@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin:0;
     font-family:Arial,sans-serif;
@@ -46,4 +47,65 @@ nav a:hover{
         background:#1d3557;
         border-radius:5px;
     }
+=======
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+/* Laptop/Desktop */
+header{
+    background:#1d3557;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#457b9d;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+/* Day 6 mobile responsive only */
+@media(max-width:600px){
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    nav a{
+        width:80%;
+        text-align:center;
+        margin:8px;
+        padding:8px;
+        background:#1d3557;
+        border-radius:8px;
+    }
+
+    section{
+        margin:10px;
+        padding:15px;
+    }
+
+    body{
+        font-size:14px;
+    }
+>>>>>>> a39dbddf0af53639b6bbc7d65b9d736cc4fe6857
 }
